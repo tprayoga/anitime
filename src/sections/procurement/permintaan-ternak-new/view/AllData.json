@@ -1,0 +1,1081 @@
+[
+    {
+        "berat": 500,
+        "collectionId": "g7hulx4xo8btdfk",
+        "collectionName": "permintaanTernak",
+        "created": "2024-05-14 03:04:23.598Z",
+        "createdBy": "mi2cl0954j063ng",
+        "dueDate": "2024-05-13 17:00:00.000Z",
+        "expand": {
+            "createdBy": {
+                "address": "Jl. TB Simatupang No.20, Cilandak Bar., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430",
+                "avatar": "",
+                "collectionId": "_pb_users_auth_",
+                "collectionName": "users",
+                "created": "2024-02-29 07:30:15.946Z",
+                "createdBy": "7xu32wjw8e9zrto",
+                "email": "wholesaler@sterna.co.id",
+                "emailVisibility": false,
+                "farmCertification": "",
+                "farmName": "",
+                "farmerCertification": "",
+                "id": "mi2cl0954j063ng",
+                "license": "",
+                "location": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "middlemanAddress": "123123",
+                "name": "wholesaler",
+                "nib": 3389093779808971,
+                "nik": 2256497518690007,
+                "phone": 89658043193,
+                "role": "wholesaler",
+                "updated": "2024-05-13 03:04:54.639Z",
+                "username": "users78428",
+                "verified": false
+            },
+            "ternak": [
+                {
+                    "RFID": "RFID-1234567",
+                    "asalPeternakan": "Indonesia",
+                    "berat": 500,
+                    "bodyConditionalScore": "5 (Sangat Gemuk)",
+                    "booked": false,
+                    "collectionId": "gdk0lw0n3pj98qd",
+                    "collectionName": "ternak",
+                    "created": "2024-05-14 08:00:50.989Z",
+                    "expand": {
+                        "kandang": {
+                            "collectionId": "5r7125jg056ksa2",
+                            "collectionName": "kandang",
+                            "created": "2024-05-14 04:31:21.953Z",
+                            "id": "8eko482e3j3lx7c",
+                            "limitKandang": 800,
+                            "luasKandang": 70000,
+                            "namaKandang": "Kandang 1",
+                            "peternakan": "7xu32wjw8e9zrto",
+                            "satuanKandang": "Ha",
+                            "ternak": [
+                                "9ku3gxvk6vsfihj"
+                            ],
+                            "updated": "2024-05-14 08:00:51.119Z"
+                        }
+                    },
+                    "id": "9ku3gxvk6vsfihj",
+                    "idPKH": "PKH-124",
+                    "jenisBreed": "Brahman Cross",
+                    "jenisHewan": "Sapi Perah",
+                    "jenisKelamin": "Jantan",
+                    "kandang": "8eko482e3j3lx7c",
+                    "lokasi": "Telinga Kanan",
+                    "noFID": "5",
+                    "peternakan": "7xu32wjw8e9zrto",
+                    "status": "aktif",
+                    "tanggalLahir": "2022-02-21 17:00:00.000Z",
+                    "umur": 2,
+                    "updated": "2024-05-14 08:00:50.989Z",
+                    "warna": "Biru"
+                }
+            ]
+        },
+        "id": "ibqbyw4ig08zuec",
+        "jenisBreed": "Sumbawa Ongole",
+        "jumlah": 1,
+        "peternakan": "7xu32wjw8e9zrto",
+        "status": "Ditinjau",
+        "ternak": [
+            "9ku3gxvk6vsfihj"
+        ],
+        "updated": "2024-05-14 13:06:06.895Z"
+    },
+    {
+        "berat": 500,
+        "collectionId": "g7hulx4xo8btdfk",
+        "collectionName": "permintaanTernak",
+        "created": "2024-05-14 03:04:23.598Z",
+        "createdBy": "mi2cl0954j063ng",
+        "dueDate": "2024-05-13 17:00:00.000Z",
+        "expand": {
+            "createdBy": {
+                "address": "Jl. TB Simatupang No.20, Cilandak Bar., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430",
+                "avatar": "",
+                "collectionId": "_pb_users_auth_",
+                "collectionName": "users",
+                "created": "2024-02-29 07:30:15.946Z",
+                "createdBy": "7xu32wjw8e9zrto",
+                "email": "wholesaler@sterna.co.id",
+                "emailVisibility": false,
+                "farmCertification": "",
+                "farmName": "",
+                "farmerCertification": "",
+                "id": "mi2cl0954j063ng",
+                "license": "",
+                "location": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "middlemanAddress": "123123",
+                "name": "wholesaler",
+                "nib": 3389093779808971,
+                "nik": 2256497518690007,
+                "phone": 89658043193,
+                "role": "wholesaler",
+                "updated": "2024-05-13 03:04:54.639Z",
+                "username": "users78428",
+                "verified": false
+            },
+            "ternak": [
+                {
+                    "RFID": "RFID-3125764",
+                    "asalPeternakan": "Indonesia",
+                    "berat": 500,
+                    "bodyConditionalScore": "5 (Sangat Gemuk)",
+                    "booked": false,
+                    "collectionId": "gdk0lw0n3pj98qd",
+                    "collectionName": "ternak",
+                    "created": "2024-05-14 08:00:50.989Z",
+                    "expand": {
+                        "kandang": {
+                            "collectionId": "5r7125jg056ksa2",
+                            "collectionName": "kandang",
+                            "created": "2024-05-14 04:31:21.953Z",
+                            "id": "8eko482e3j3lx7c",
+                            "limitKandang": 800,
+                            "luasKandang": 70000,
+                            "namaKandang": "Kandang 1",
+                            "peternakan": "7xu32wjw8e9zrto",
+                            "satuanKandang": "Ha",
+                            "ternak": [
+                                "9ku3gxvk6vsfihj"
+                            ],
+                            "updated": "2024-05-14 08:00:51.119Z"
+                        }
+                    },
+                    "id": "9ku3gxvk6vsfihj",
+                    "idPKH": "PKH-124",
+                    "jenisBreed": "Brahman Cross",
+                    "jenisHewan": "Sapi Perah",
+                    "jenisKelamin": "Jantan",
+                    "kandang": "8eko482e3j3lx7c",
+                    "lokasi": "Telinga Kanan",
+                    "noFID": "5",
+                    "peternakan": "7xu32wjw8e9zrto",
+                    "status": "aktif",
+                    "tanggalLahir": "2022-02-21 17:00:00.000Z",
+                    "umur": 2,
+                    "updated": "2024-05-14 08:00:50.989Z",
+                    "warna": "Biru"
+                },
+                {
+                    "RFID": "RFID-3125764",
+                    "asalPeternakan": "Indonesia",
+                    "berat": 500,
+                    "bodyConditionalScore": "5 (Sangat Gemuk)",
+                    "booked": false,
+                    "collectionId": "gdk0lw0n3pj98qd",
+                    "collectionName": "ternak",
+                    "created": "2024-05-14 08:00:50.989Z",
+                    "expand": {
+                        "kandang": {
+                            "collectionId": "5r7125jg056ksa2",
+                            "collectionName": "kandang",
+                            "created": "2024-05-14 04:31:21.953Z",
+                            "id": "8eko482e3j3lx7c",
+                            "limitKandang": 800,
+                            "luasKandang": 70000,
+                            "namaKandang": "Kandang 2",
+                            "peternakan": "7xu32wjw8e9zrto",
+                            "satuanKandang": "Ha",
+                            "ternak": [
+                                "9ku3gxvk6vsfihj"
+                            ],
+                            "updated": "2024-05-14 08:00:51.119Z"
+                        }
+                    },
+                    "id": "9ku3gxvk6vsfihj",
+                    "idPKH": "PKH-124",
+                    "jenisBreed": "Brahman Cross",
+                    "jenisHewan": "Sapi Perah",
+                    "jenisKelamin": "Jantan",
+                    "kandang": "8eko482e3j3lx7c",
+                    "lokasi": "Telinga Kanan",
+                    "noFID": "5",
+                    "peternakan": "7xu32wjw8e9zrto",
+                    "status": "aktif",
+                    "tanggalLahir": "2022-04-21 17:00:00.000Z",
+                    "umur": 2,
+                    "updated": "2024-05-14 08:00:50.989Z",
+                    "warna": "Biru"
+                },
+                {
+                    "RFID": "RFID-3155764",
+                    "asalPeternakan": "Indonesia",
+                    "berat": 500,
+                    "bodyConditionalScore": "5 (Sangat Gemuk)",
+                    "booked": false,
+                    "collectionId": "gdk0lw0n3pj98qd",
+                    "collectionName": "ternak",
+                    "created": "2024-05-14 08:00:50.989Z",
+                    "expand": {
+                        "kandang": {
+                            "collectionId": "5r7125jg056ksa2",
+                            "collectionName": "kandang",
+                            "created": "2024-05-14 04:31:21.953Z",
+                            "id": "8eko482e3j3lx7c",
+                            "limitKandang": 800,
+                            "luasKandang": 70000,
+                            "namaKandang": "Kandang 3",
+                            "peternakan": "7xu32wjw8e9zrto",
+                            "satuanKandang": "Ha",
+                            "ternak": [
+                                "9ku3gxvk6vsfihj"
+                            ],
+                            "updated": "2024-05-14 08:00:51.119Z"
+                        }
+                    },
+                    "id": "9ku3gxvk6vsfihj",
+                    "idPKH": "PKH-124",
+                    "jenisBreed": "Brahman Cross",
+                    "jenisHewan": "Sapi Perah",
+                    "jenisKelamin": "Jantan",
+                    "kandang": "8eko482e3j3lx7c",
+                    "lokasi": "Telinga Kanan",
+                    "noFID": "5",
+                    "peternakan": "7xu32wjw8e9zrto",
+                    "status": "aktif",
+                    "tanggalLahir": "2022-04-21 17:00:00.000Z",
+                    "umur": 2,
+                    "updated": "2024-05-14 08:00:50.989Z",
+                    "warna": "Biru"
+                }
+            ]
+        },
+        "id": "ibqbyw4ig08zuec",
+        "jenisBreed": "Sumbawa Ongole",
+        "jumlah": 3,
+        "peternakan": "7xu32wjw8e9zrto",
+        "status": "Diterima",
+        "ternak": [
+            "9ku3gxvk6vsfihj"
+        ],
+        "updated": "2024-05-14 13:06:06.895Z"
+    },
+    {
+        "berat": 500,
+        "collectionId": "g7hulx4xo8btdfk",
+        "collectionName": "permintaanTernak",
+        "created": "2024-05-14 03:04:23.598Z",
+        "createdBy": "mi2cl0954j063ng",
+        "dueDate": "2024-05-13 17:00:00.000Z",
+        "expand": {
+            "createdBy": {
+                "address": "Jl. TB Simatupang No.20, Cilandak Bar., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430",
+                "avatar": "",
+                "collectionId": "_pb_users_auth_",
+                "collectionName": "users",
+                "created": "2024-02-29 07:30:15.946Z",
+                "createdBy": "7xu32wjw8e9zrto",
+                "email": "wholesaler@sterna.co.id",
+                "emailVisibility": false,
+                "farmCertification": "",
+                "farmName": "",
+                "farmerCertification": "",
+                "id": "mi2cl0954j063ng",
+                "license": "",
+                "location": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "middlemanAddress": "123123",
+                "name": "wholesaler",
+                "nib": 3389093779808971,
+                "nik": 2256497518690007,
+                "phone": 89658043193,
+                "role": "wholesaler",
+                "updated": "2024-05-13 03:04:54.639Z",
+                "username": "users78428",
+                "verified": false
+            },
+            "ternak": [
+                {
+                    "RFID": "RFID-3125764",
+                    "asalPeternakan": "Indonesia",
+                    "berat": 500,
+                    "bodyConditionalScore": "5 (Sangat Gemuk)",
+                    "booked": false,
+                    "collectionId": "gdk0lw0n3pj98qd",
+                    "collectionName": "ternak",
+                    "created": "2024-05-14 08:00:50.989Z",
+                    "expand": {
+                        "kandang": {
+                            "collectionId": "5r7125jg056ksa2",
+                            "collectionName": "kandang",
+                            "created": "2024-05-14 04:31:21.953Z",
+                            "id": "8eko482e3j3lx7c",
+                            "limitKandang": 800,
+                            "luasKandang": 70000,
+                            "namaKandang": "Kandang 2",
+                            "peternakan": "7xu32wjw8e9zrto",
+                            "satuanKandang": "Ha",
+                            "ternak": [
+                                "9ku3gxvk6vsfihj"
+                            ],
+                            "updated": "2024-05-14 08:00:51.119Z"
+                        }
+                    },
+                    "id": "9ku3gxvk6vsfihj",
+                    "idPKH": "PKH-124",
+                    "jenisBreed": "Brahman Cross",
+                    "jenisHewan": "Sapi Perah",
+                    "jenisKelamin": "Jantan",
+                    "kandang": "8eko482e3j3lx7c",
+                    "lokasi": "Telinga Kanan",
+                    "noFID": "5",
+                    "peternakan": "7xu32wjw8e9zrto",
+                    "status": "aktif",
+                    "tanggalLahir": "2022-04-21 17:00:00.000Z",
+                    "umur": 2,
+                    "updated": "2024-05-14 08:00:50.989Z",
+                    "warna": "Biru"
+                },
+                {
+                    "RFID": "RFID-3155764",
+                    "asalPeternakan": "Indonesia",
+                    "berat": 500,
+                    "bodyConditionalScore": "5 (Sangat Gemuk)",
+                    "booked": false,
+                    "collectionId": "gdk0lw0n3pj98qd",
+                    "collectionName": "ternak",
+                    "created": "2024-05-14 08:00:50.989Z",
+                    "expand": {
+                        "kandang": {
+                            "collectionId": "5r7125jg056ksa2",
+                            "collectionName": "kandang",
+                            "created": "2024-05-14 04:31:21.953Z",
+                            "id": "8eko482e3j3lx7c",
+                            "limitKandang": 800,
+                            "luasKandang": 70000,
+                            "namaKandang": "Kandang 3",
+                            "peternakan": "7xu32wjw8e9zrto",
+                            "satuanKandang": "Ha",
+                            "ternak": [
+                                "9ku3gxvk6vsfihj"
+                            ],
+                            "updated": "2024-05-14 08:00:51.119Z"
+                        }
+                    },
+                    "id": "9ku3gxvk6vsfihj",
+                    "idPKH": "PKH-124",
+                    "jenisBreed": "Brahman Cross",
+                    "jenisHewan": "Sapi Perah",
+                    "jenisKelamin": "Jantan",
+                    "kandang": "8eko482e3j3lx7c",
+                    "lokasi": "Telinga Kanan",
+                    "noFID": "5",
+                    "peternakan": "7xu32wjw8e9zrto",
+                    "status": "aktif",
+                    "tanggalLahir": "2022-04-21 17:00:00.000Z",
+                    "umur": 2,
+                    "updated": "2024-05-14 08:00:50.989Z",
+                    "warna": "Biru"
+                }
+            ]
+        },
+        "id": "ibqbyw4ig08zuec",
+        "jenisBreed": "Brahman Cross",
+        "jumlah": 2,
+        "peternakan": "7xu32wjw8e9zrto",
+        "status": "Diterima",
+        "ternak": [
+            "9ku3gxvk6vsfihj"
+        ],
+        "updated": "2024-05-14 13:06:06.895Z"
+    },
+    {
+        "berat": 500,
+        "collectionId": "g7hulx4xo8btdfk",
+        "collectionName": "permintaanTernak",
+        "created": "2024-05-14 03:04:23.598Z",
+        "createdBy": "mi2cl0954j063ng",
+        "dueDate": "2024-05-13 17:00:00.000Z",
+        "expand": {
+            "createdBy": {
+                "address": "Jl. TB Simatupang No.20, Cilandak Bar., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430",
+                "avatar": "",
+                "collectionId": "_pb_users_auth_",
+                "collectionName": "users",
+                "created": "2024-02-29 07:30:15.946Z",
+                "createdBy": "7xu32wjw8e9zrto",
+                "email": "wholesaler@sterna.co.id",
+                "emailVisibility": false,
+                "farmCertification": "",
+                "farmName": "",
+                "farmerCertification": "",
+                "id": "mi2cl0954j063ng",
+                "license": "",
+                "location": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "middlemanAddress": "123123",
+                "name": "wholesaler",
+                "nib": 3389093779808971,
+                "nik": 2256497518690007,
+                "phone": 89658043193,
+                "role": "wholesaler",
+                "updated": "2024-05-13 03:04:54.639Z",
+                "username": "users78428",
+                "verified": false
+            },
+            "ternak": []
+        },
+        "id": "ibqbyw4ig08zuec",
+        "jenisBreed": "Brahman Cross",
+        "jumlah": 2,
+        "peternakan": "7xu32wjw8e9zrto",
+        "status": "Ditolak",
+        "ternak": [
+            "9ku3gxvk6vsfihj"
+        ],
+        "updated": "2024-05-14 13:06:06.895Z"
+    },
+    {
+        "berat": 500,
+        "collectionId": "g7hulx4xo8btdfk",
+        "collectionName": "permintaanTernak",
+        "created": "2024-05-14 03:04:23.598Z",
+        "createdBy": "mi2cl0954j063ng",
+        "dueDate": "2024-05-13 17:00:00.000Z",
+        "expand": {
+            "createdBy": {
+                "address": "Jl. TB Simatupang No.20, Cilandak Bar., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430",
+                "avatar": "",
+                "collectionId": "_pb_users_auth_",
+                "collectionName": "users",
+                "created": "2024-02-29 07:30:15.946Z",
+                "createdBy": "7xu32wjw8e9zrto",
+                "email": "wholesaler@sterna.co.id",
+                "emailVisibility": false,
+                "farmCertification": "",
+                "farmName": "",
+                "farmerCertification": "",
+                "id": "mi2cl0954j063ng",
+                "license": "",
+                "location": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "middlemanAddress": "123123",
+                "name": "wholesaler",
+                "nib": 3389093779808971,
+                "nik": 2256497518690007,
+                "phone": 89658043193,
+                "role": "wholesaler",
+                "updated": "2024-05-13 03:04:54.639Z",
+                "username": "users78428",
+                "verified": false
+            },
+            "ternak": [
+                {
+                    "RFID": "RFID-3125764",
+                    "asalPeternakan": "Indonesia",
+                    "berat": 500,
+                    "bodyConditionalScore": "5 (Sangat Gemuk)",
+                    "booked": false,
+                    "collectionId": "gdk0lw0n3pj98qd",
+                    "collectionName": "ternak",
+                    "created": "2024-05-14 08:00:50.989Z",
+                    "expand": {
+                        "kandang": {
+                            "collectionId": "5r7125jg056ksa2",
+                            "collectionName": "kandang",
+                            "created": "2024-05-14 04:31:21.953Z",
+                            "id": "8eko482e3j3lx7c",
+                            "limitKandang": 800,
+                            "luasKandang": 70000,
+                            "namaKandang": "Kandang 2",
+                            "peternakan": "7xu32wjw8e9zrto",
+                            "satuanKandang": "Ha",
+                            "ternak": [
+                                "9ku3gxvk6vsfihj"
+                            ],
+                            "updated": "2024-05-14 08:00:51.119Z"
+                        }
+                    },
+                    "id": "9ku3gxvk6vsfihj",
+                    "idPKH": "PKH-124",
+                    "jenisBreed": "Brahman Cross",
+                    "jenisHewan": "Sapi Perah",
+                    "jenisKelamin": "Jantan",
+                    "kandang": "8eko482e3j3lx7c",
+                    "lokasi": "Telinga Kanan",
+                    "noFID": "5",
+                    "peternakan": "7xu32wjw8e9zrto",
+                    "status": "aktif",
+                    "tanggalLahir": "2022-04-21 17:00:00.000Z",
+                    "umur": 2,
+                    "updated": "2024-05-14 08:00:50.989Z",
+                    "warna": "Biru"
+                },
+                {
+                    "RFID": "RFID-3155764",
+                    "asalPeternakan": "Indonesia",
+                    "berat": 500,
+                    "bodyConditionalScore": "5 (Sangat Gemuk)",
+                    "booked": false,
+                    "collectionId": "gdk0lw0n3pj98qd",
+                    "collectionName": "ternak",
+                    "created": "2024-05-14 08:00:50.989Z",
+                    "expand": {
+                        "kandang": {
+                            "collectionId": "5r7125jg056ksa2",
+                            "collectionName": "kandang",
+                            "created": "2024-05-14 04:31:21.953Z",
+                            "id": "8eko482e3j3lx7c",
+                            "limitKandang": 800,
+                            "luasKandang": 70000,
+                            "namaKandang": "Kandang 3",
+                            "peternakan": "7xu32wjw8e9zrto",
+                            "satuanKandang": "Ha",
+                            "ternak": [
+                                "9ku3gxvk6vsfihj"
+                            ],
+                            "updated": "2024-05-14 08:00:51.119Z"
+                        }
+                    },
+                    "id": "9ku3gxvk6vsfihj",
+                    "idPKH": "PKH-124",
+                    "jenisBreed": "Brahman Cross",
+                    "jenisHewan": "Sapi Perah",
+                    "jenisKelamin": "Jantan",
+                    "kandang": "8eko482e3j3lx7c",
+                    "lokasi": "Telinga Kanan",
+                    "noFID": "5",
+                    "peternakan": "7xu32wjw8e9zrto",
+                    "status": "aktif",
+                    "tanggalLahir": "2022-04-21 17:00:00.000Z",
+                    "umur": 2,
+                    "updated": "2024-05-14 08:00:50.989Z",
+                    "warna": "Biru"
+                }
+            ]
+        },
+        "id": "ibqbyw4ig08zuec",
+        "jenisBreed": "Brahman Cross",
+        "jumlah": 2,
+        "peternakan": "7xu32wjw8e9zrto",
+        "status": "Diproses",
+        "ternak": [
+            "9ku3gxvk6vsfihj"
+        ],
+        "updated": "2024-05-14 13:06:06.895Z"
+    },
+    {
+        "berat": 500,
+        "collectionId": "g7hulx4xo8btdfk",
+        "collectionName": "permintaanTernak",
+        "created": "2024-05-14 03:04:23.598Z",
+        "createdBy": "mi2cl0954j063ng",
+        "dueDate": "2024-05-13 17:00:00.000Z",
+        "expand": {
+            "createdBy": {
+                "address": "Jl. TB Simatupang No.20, Cilandak Bar., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430",
+                "avatar": "",
+                "collectionId": "_pb_users_auth_",
+                "collectionName": "users",
+                "created": "2024-02-29 07:30:15.946Z",
+                "createdBy": "7xu32wjw8e9zrto",
+                "email": "wholesaler@sterna.co.id",
+                "emailVisibility": false,
+                "farmCertification": "",
+                "farmName": "",
+                "farmerCertification": "",
+                "id": "mi2cl0954j063ng",
+                "license": "",
+                "location": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "middlemanAddress": "123123",
+                "name": "wholesaler",
+                "nib": 3389093779808971,
+                "nik": 2256497518690007,
+                "phone": 89658043193,
+                "role": "wholesaler",
+                "updated": "2024-05-13 03:04:54.639Z",
+                "username": "users78428",
+                "verified": false
+            },
+            "ternak": [
+                {
+                    "RFID": "RFID-3125764",
+                    "asalPeternakan": "Indonesia",
+                    "berat": 500,
+                    "bodyConditionalScore": "5 (Sangat Gemuk)",
+                    "booked": false,
+                    "collectionId": "gdk0lw0n3pj98qd",
+                    "collectionName": "ternak",
+                    "created": "2024-05-14 08:00:50.989Z",
+                    "expand": {
+                        "kandang": {
+                            "collectionId": "5r7125jg056ksa2",
+                            "collectionName": "kandang",
+                            "created": "2024-05-14 04:31:21.953Z",
+                            "id": "8eko482e3j3lx7c",
+                            "limitKandang": 800,
+                            "luasKandang": 70000,
+                            "namaKandang": "Kandang 2",
+                            "peternakan": "7xu32wjw8e9zrto",
+                            "satuanKandang": "Ha",
+                            "ternak": [
+                                "9ku3gxvk6vsfihj"
+                            ],
+                            "updated": "2024-05-14 08:00:51.119Z"
+                        }
+                    },
+                    "id": "9ku3gxvk6vsfihj",
+                    "idPKH": "PKH-124",
+                    "jenisBreed": "Brahman Cross",
+                    "jenisHewan": "Sapi Perah",
+                    "jenisKelamin": "Jantan",
+                    "kandang": "8eko482e3j3lx7c",
+                    "lokasi": "Telinga Kanan",
+                    "noFID": "5",
+                    "peternakan": "7xu32wjw8e9zrto",
+                    "status": "aktif",
+                    "tanggalLahir": "2022-04-21 17:00:00.000Z",
+                    "umur": 2,
+                    "updated": "2024-05-14 08:00:50.989Z",
+                    "warna": "Biru"
+                },
+                {
+                    "RFID": "RFID-3155764",
+                    "asalPeternakan": "Indonesia",
+                    "berat": 500,
+                    "bodyConditionalScore": "5 (Sangat Gemuk)",
+                    "booked": false,
+                    "collectionId": "gdk0lw0n3pj98qd",
+                    "collectionName": "ternak",
+                    "created": "2024-05-14 08:00:50.989Z",
+                    "expand": {
+                        "kandang": {
+                            "collectionId": "5r7125jg056ksa2",
+                            "collectionName": "kandang",
+                            "created": "2024-05-14 04:31:21.953Z",
+                            "id": "8eko482e3j3lx7c",
+                            "limitKandang": 800,
+                            "luasKandang": 70000,
+                            "namaKandang": "Kandang 3",
+                            "peternakan": "7xu32wjw8e9zrto",
+                            "satuanKandang": "Ha",
+                            "ternak": [
+                                "9ku3gxvk6vsfihj"
+                            ],
+                            "updated": "2024-05-14 08:00:51.119Z"
+                        }
+                    },
+                    "id": "9ku3gxvk6vsfihj",
+                    "idPKH": "PKH-124",
+                    "jenisBreed": "Brahman Cross",
+                    "jenisHewan": "Sapi Perah",
+                    "jenisKelamin": "Jantan",
+                    "kandang": "8eko482e3j3lx7c",
+                    "lokasi": "Telinga Kanan",
+                    "noFID": "5",
+                    "peternakan": "7xu32wjw8e9zrto",
+                    "status": "aktif",
+                    "tanggalLahir": "2022-04-21 17:00:00.000Z",
+                    "umur": 2,
+                    "updated": "2024-05-14 08:00:50.989Z",
+                    "warna": "Biru"
+                }
+            ]
+        },
+        "id": "ibqbyw4ig08zuec",
+        "jenisBreed": "Brahman Cross",
+        "jumlah": 2,
+        "peternakan": "7xu32wjw8e9zrto",
+        "status": "Diproses",
+        "ternak": [
+            "9ku3gxvk6vsfihj"
+        ],
+        "updated": "2024-05-14 13:06:06.895Z"
+    },
+    {
+        "berat": 500,
+        "collectionId": "g7hulx4xo8btdfk",
+        "collectionName": "permintaanTernak",
+        "created": "2024-05-14 03:04:23.598Z",
+        "createdBy": "mi2cl0954j063ng",
+        "dueDate": "2024-05-13 17:00:00.000Z",
+        "expand": {
+            "createdBy": {
+                "address": "Jl. TB Simatupang No.20, Cilandak Bar., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430",
+                "avatar": "",
+                "collectionId": "_pb_users_auth_",
+                "collectionName": "users",
+                "created": "2024-02-29 07:30:15.946Z",
+                "createdBy": "7xu32wjw8e9zrto",
+                "email": "wholesaler@sterna.co.id",
+                "emailVisibility": false,
+                "farmCertification": "",
+                "farmName": "",
+                "farmerCertification": "",
+                "id": "mi2cl0954j063ng",
+                "license": "",
+                "location": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "middlemanAddress": "123123",
+                "name": "wholesaler",
+                "nib": 3389093779808971,
+                "nik": 2256497518690007,
+                "phone": 89658043193,
+                "role": "wholesaler",
+                "updated": "2024-05-13 03:04:54.639Z",
+                "username": "users78428",
+                "verified": false
+            },
+            "ternak": [
+                {
+                    "RFID": "RFID-3125764",
+                    "asalPeternakan": "Indonesia",
+                    "berat": 500,
+                    "bodyConditionalScore": "5 (Sangat Gemuk)",
+                    "booked": false,
+                    "collectionId": "gdk0lw0n3pj98qd",
+                    "collectionName": "ternak",
+                    "created": "2024-05-14 08:00:50.989Z",
+                    "expand": {
+                        "kandang": {
+                            "collectionId": "5r7125jg056ksa2",
+                            "collectionName": "kandang",
+                            "created": "2024-05-14 04:31:21.953Z",
+                            "id": "8eko482e3j3lx7c",
+                            "limitKandang": 800,
+                            "luasKandang": 70000,
+                            "namaKandang": "Kandang 2",
+                            "peternakan": "7xu32wjw8e9zrto",
+                            "satuanKandang": "Ha",
+                            "ternak": [
+                                "9ku3gxvk6vsfihj"
+                            ],
+                            "updated": "2024-05-14 08:00:51.119Z"
+                        }
+                    },
+                    "id": "9ku3gxvk6vsfihj",
+                    "idPKH": "PKH-124",
+                    "jenisBreed": "Brahman Cross",
+                    "jenisHewan": "Sapi Perah",
+                    "jenisKelamin": "Jantan",
+                    "kandang": "8eko482e3j3lx7c",
+                    "lokasi": "Telinga Kanan",
+                    "noFID": "5",
+                    "peternakan": "7xu32wjw8e9zrto",
+                    "status": "aktif",
+                    "tanggalLahir": "2022-04-21 17:00:00.000Z",
+                    "umur": 2,
+                    "updated": "2024-05-14 08:00:50.989Z",
+                    "warna": "Biru"
+                },
+                {
+                    "RFID": "RFID-3155764",
+                    "asalPeternakan": "Indonesia",
+                    "berat": 500,
+                    "bodyConditionalScore": "5 (Sangat Gemuk)",
+                    "booked": false,
+                    "collectionId": "gdk0lw0n3pj98qd",
+                    "collectionName": "ternak",
+                    "created": "2024-05-14 08:00:50.989Z",
+                    "expand": {
+                        "kandang": {
+                            "collectionId": "5r7125jg056ksa2",
+                            "collectionName": "kandang",
+                            "created": "2024-05-14 04:31:21.953Z",
+                            "id": "8eko482e3j3lx7c",
+                            "limitKandang": 800,
+                            "luasKandang": 70000,
+                            "namaKandang": "Kandang 3",
+                            "peternakan": "7xu32wjw8e9zrto",
+                            "satuanKandang": "Ha",
+                            "ternak": [
+                                "9ku3gxvk6vsfihj"
+                            ],
+                            "updated": "2024-05-14 08:00:51.119Z"
+                        }
+                    },
+                    "id": "9ku3gxvk6vsfihj",
+                    "idPKH": "PKH-124",
+                    "jenisBreed": "Brahman Cross",
+                    "jenisHewan": "Sapi Perah",
+                    "jenisKelamin": "Jantan",
+                    "kandang": "8eko482e3j3lx7c",
+                    "lokasi": "Telinga Kanan",
+                    "noFID": "5",
+                    "peternakan": "7xu32wjw8e9zrto",
+                    "status": "aktif",
+                    "tanggalLahir": "2022-04-21 17:00:00.000Z",
+                    "umur": 2,
+                    "updated": "2024-05-14 08:00:50.989Z",
+                    "warna": "Biru"
+                }
+            ]
+        },
+        "id": "ibqbyw4ig08zuec",
+        "jenisBreed": "Brahman Cross",
+        "jumlah": 2,
+        "peternakan": "7xu32wjw8e9zrto",
+        "status": "Diproses",
+        "ternak": [
+            "9ku3gxvk6vsfihj"
+        ],
+        "updated": "2024-05-14 13:06:06.895Z"
+    },
+    {
+        "berat": 500,
+        "collectionId": "g7hulx4xo8btdfk",
+        "collectionName": "permintaanTernak",
+        "created": "2024-05-14 03:04:23.598Z",
+        "createdBy": "mi2cl0954j063ng",
+        "dueDate": "2024-05-13 17:00:00.000Z",
+        "expand": {
+            "createdBy": {
+                "address": "Jl. TB Simatupang No.20, Cilandak Bar., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430",
+                "avatar": "",
+                "collectionId": "_pb_users_auth_",
+                "collectionName": "users",
+                "created": "2024-02-29 07:30:15.946Z",
+                "createdBy": "7xu32wjw8e9zrto",
+                "email": "wholesaler@sterna.co.id",
+                "emailVisibility": false,
+                "farmCertification": "",
+                "farmName": "",
+                "farmerCertification": "",
+                "id": "mi2cl0954j063ng",
+                "license": "",
+                "location": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "middlemanAddress": "123123",
+                "name": "wholesaler",
+                "nib": 3389093779808971,
+                "nik": 2256497518690007,
+                "phone": 89658043193,
+                "role": "wholesaler",
+                "updated": "2024-05-13 03:04:54.639Z",
+                "username": "users78428",
+                "verified": false
+            },
+            "ternak": [
+            ]
+        },
+        "id": "ibqbyw4ig08zuec",
+        "jenisBreed": "Brahman Cross",
+        "jumlah": 2,
+        "peternakan": "7xu32wjw8e9zrto",
+        "status": "Ditunda",
+        "ternak": [
+            "9ku3gxvk6vsfihj"
+        ],
+        "updated": "2024-05-14 13:06:06.895Z"
+    },
+    {
+        "berat": 500,
+        "collectionId": "g7hulx4xo8btdfk",
+        "collectionName": "permintaanTernak",
+        "created": "2024-05-14 03:04:23.598Z",
+        "createdBy": "mi2cl0954j063ng",
+        "dueDate": "2024-05-13 17:00:00.000Z",
+        "expand": {
+            "createdBy": {
+                "address": "Jl. TB Simatupang No.20, Cilandak Bar., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430",
+                "avatar": "",
+                "collectionId": "_pb_users_auth_",
+                "collectionName": "users",
+                "created": "2024-02-29 07:30:15.946Z",
+                "createdBy": "7xu32wjw8e9zrto",
+                "email": "wholesaler@sterna.co.id",
+                "emailVisibility": false,
+                "farmCertification": "",
+                "farmName": "",
+                "farmerCertification": "",
+                "id": "mi2cl0954j063ng",
+                "license": "",
+                "location": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "middlemanAddress": "123123",
+                "name": "wholesaler",
+                "nib": 3389093779808971,
+                "nik": 2256497518690007,
+                "phone": 89658043193,
+                "role": "wholesaler",
+                "updated": "2024-05-13 03:04:54.639Z",
+                "username": "users78428",
+                "verified": false
+            },
+            "ternak": [
+            ]
+        },
+        "id": "ibqbyw4ig08zuec",
+        "jenisBreed": "Brahman Cross",
+        "jumlah": 2,
+        "peternakan": "7xu32wjw8e9zrto",
+        "status": "Ditunda",
+        "ternak": [
+            "9ku3gxvk6vsfihj"
+        ],
+        "updated": "2024-05-14 13:06:06.895Z"
+    },
+    {
+        "berat": 500,
+        "collectionId": "g7hulx4xo8btdfk",
+        "collectionName": "permintaanTernak",
+        "created": "2024-05-14 03:04:23.598Z",
+        "createdBy": "mi2cl0954j063ng",
+        "dueDate": "2024-05-13 17:00:00.000Z",
+        "expand": {
+            "createdBy": {
+                "address": "Jl. TB Simatupang No.20, Cilandak Bar., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430",
+                "avatar": "",
+                "collectionId": "_pb_users_auth_",
+                "collectionName": "users",
+                "created": "2024-02-29 07:30:15.946Z",
+                "createdBy": "7xu32wjw8e9zrto",
+                "email": "wholesaler@sterna.co.id",
+                "emailVisibility": false,
+                "farmCertification": "",
+                "farmName": "",
+                "farmerCertification": "",
+                "id": "mi2cl0954j063ng",
+                "license": "",
+                "location": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "middlemanAddress": "123123",
+                "name": "wholesaler",
+                "nib": 3389093779808971,
+                "nik": 2256497518690007,
+                "phone": 89658043193,
+                "role": "wholesaler",
+                "updated": "2024-05-13 03:04:54.639Z",
+                "username": "users78428",
+                "verified": false
+            },
+            "ternak": [
+            ]
+        },
+        "id": "ibqbyw4ig08zuec",
+        "jenisBreed": "Brahman Cross",
+        "jumlah": 2,
+        "peternakan": "7xu32wjw8e9zrto",
+        "status": "Ditunda",
+        "ternak": [
+            "9ku3gxvk6vsfihj"
+        ],
+        "updated": "2024-05-14 13:06:06.895Z"
+    },
+    {
+        "berat": 500,
+        "collectionId": "g7hulx4xo8btdfk",
+        "collectionName": "permintaanTernak",
+        "created": "2024-05-14 03:04:23.598Z",
+        "createdBy": "mi2cl0954j063ng",
+        "dueDate": "2024-05-13 17:00:00.000Z",
+        "expand": {
+            "createdBy": {
+                "address": "Jl. TB Simatupang No.20, Cilandak Bar., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430",
+                "avatar": "",
+                "collectionId": "_pb_users_auth_",
+                "collectionName": "users",
+                "created": "2024-02-29 07:30:15.946Z",
+                "createdBy": "7xu32wjw8e9zrto",
+                "email": "wholesaler@sterna.co.id",
+                "emailVisibility": false,
+                "farmCertification": "",
+                "farmName": "",
+                "farmerCertification": "",
+                "id": "mi2cl0954j063ng",
+                "license": "",
+                "location": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "middlemanAddress": "123123",
+                "name": "wholesaler",
+                "nib": 3389093779808971,
+                "nik": 2256497518690007,
+                "phone": 89658043193,
+                "role": "wholesaler",
+                "updated": "2024-05-13 03:04:54.639Z",
+                "username": "users78428",
+                "verified": false
+            },
+            "ternak": [
+            ]
+        },
+        "id": "ibqbyw4ig08zuec",
+        "jenisBreed": "Brahman Cross",
+        "jumlah": 2,
+        "peternakan": "7xu32wjw8e9zrto",
+        "status": "Ditunda",
+        "ternak": [
+            "9ku3gxvk6vsfihj"
+        ],
+        "updated": "2024-05-14 13:06:06.895Z"
+    },
+    {
+        "berat": 500,
+        "collectionId": "g7hulx4xo8btdfk",
+        "collectionName": "permintaanTernak",
+        "created": "2024-05-14 03:04:23.598Z",
+        "createdBy": "mi2cl0954j063ng",
+        "dueDate": "2024-05-13 17:00:00.000Z",
+        "expand": {
+            "createdBy": {
+                "address": "Jl. TB Simatupang No.20, Cilandak Bar., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430",
+                "avatar": "",
+                "collectionId": "_pb_users_auth_",
+                "collectionName": "users",
+                "created": "2024-02-29 07:30:15.946Z",
+                "createdBy": "7xu32wjw8e9zrto",
+                "email": "wholesaler@sterna.co.id",
+                "emailVisibility": false,
+                "farmCertification": "",
+                "farmName": "",
+                "farmerCertification": "",
+                "id": "mi2cl0954j063ng",
+                "license": "",
+                "location": {
+                    "latitude": "",
+                    "longitude": ""
+                },
+                "middlemanAddress": "123123",
+                "name": "wholesaler",
+                "nib": 3389093779808971,
+                "nik": 2256497518690007,
+                "phone": 89658043193,
+                "role": "wholesaler",
+                "updated": "2024-05-13 03:04:54.639Z",
+                "username": "users78428",
+                "verified": false
+            },
+            "ternak": [
+            ]
+        },
+        "id": "ibqbyw4ig08zuec",
+        "jenisBreed": "Brahman Cross",
+        "jumlah": 2,
+        "peternakan": "7xu32wjw8e9zrto",
+        "status": "Ditunda",
+        "ternak": [
+            "9ku3gxvk6vsfihj"
+        ],
+        "updated": "2024-05-14 13:06:06.895Z"
+    }
+]

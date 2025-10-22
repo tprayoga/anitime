@@ -1,0 +1,11 @@
+@page {
+  size: auto;
+  margin: 0mm;
+  size: landscape;
+}
+
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}

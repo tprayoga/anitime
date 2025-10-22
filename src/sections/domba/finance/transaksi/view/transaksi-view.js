@@ -1,0 +1,261 @@
+'use client';
+
+import isEqual from 'lodash/isEqual';
+import { useState, useCallback, useEffect, useMemo } from 'react';
+
+import Tab from '@mui/material/Tab';
+import Tabs from '@mui/material/Tabs';
+import Card from '@mui/material/Card';
+import Table from '@mui/material/Table';
+import Button from '@mui/material/Button';
+import Tooltip from '@mui/material/Tooltip';
+import { alpha } from '@mui/material/styles';
+import Container from '@mui/material/Container';
+import TableBody from '@mui/material/TableBody';
+import IconButton from '@mui/material/IconButton';
+import TableContainer from '@mui/material/TableContainer';
+
+import { paths } from 'src/routes/paths';
+import { useRouter } from 'src/routes/hooks';
+import { RouterLink } from 'src/routes/components';
+
+import { useBoolean } from 'src/hooks/use-boolean';
+
+import { _roles, _userList } from 'src/_mock';
+
+import Label from 'src/components/label';
+import Iconify from 'src/components/iconify';
+import Scrollbar from 'src/components/scrollbar';
+import { useSnackbar } from 'src/components/snackbar';
+import { ConfirmDialog } from 'src/components/custom-dialog';
+import { useSettingsContext } from 'src/components/settings';
+
+import TransaksiTableRow from '../transaksi-pendapatan-table-row';
+import TransaksiToolbar from '../transaksi-table-toolbar';
+import TransaksiTableFiltersResult from '../transaksi-table-filters-result';
+import { Grid, Stack, Typography } from '@mui/material';
+import AddTransaksiPendapatanModal from 'src/components/modal/finance/add-transaksi-pendapatan-modal';
+import InvoiceModal from 'src/components/modal/finance/invoice-modal';
+import OverviewTransaksi from '../overview-transaksi';
+import { Box, useTheme } from '@mui/system';
+import { useGetPemasukan } from 'src/api/finance/pemasukan';
+import { useGetPengeluaran } from 'src/api/finance/pengeluaran';
+import { debounce } from 'lodash';
+import TableAnitimeCustom from 'src/components/tableAnitimeCustom';
+import TransaksiPemasukanTableRow from '../transaksi-pendapatan-table-row';
+import TransaksiPengeluaranTableRow from '../transaksi-pengeluaran-table-row';
+import { useAuthContext } from 'src/auth/hooks';
+import TableAnitimeDombaCustom from 'src/components/tableAnitimeDombaCustom';
+
+// ----------------------------------------------------------------------
+
+const KATEGORI_OPTIONS = [
+  { value: 'pemasukan', label: 'Pemasukan' },
+  { value: 'pengeluaran', label: 'Pengeluaran' },
+];
+
+const TABLE_HEAD_PEMASUKAN = [
+  { id: 'tanggal', label: 'Tanggal' },
+  { id: 'plasma', label: 'Plasma' },
+  { id: 'jenisPemasukan', label: 'Jenis Pemasukan' },
+  { id: 'jumlahPemasukan', label: 'Jumlah' },
+  { id: 'nilaiPemasukan', label: 'Nilai Pemasukan' },
+  {},
+];
+
+const TABLE_HEAD_PENGELUARAN = [
+  { id: 'tanggal', label: 'Tanggal' },
+  { id: 'plasma', label: 'Plasma' },
+  { id: 'jenisPengeluaran', label: 'Jenis Pengeluaran' },
+  { id: 'jumlahPengeluaran', label: 'Jumlah' },
+  { id: 'nilaiPengeluaran', label: 'Nilai Pengeluaran' },
+  {},
+];
+
+const overviewData = [
+  {
+    title: 'Daging Sapi Tingkat Pemotongan/RPH',
+    price: 120900,
+    icon: '/assets/illustrations/kandang/check.png',
+    wilayah: 'Wilayah Nasional',
+  },
+  {
+    title: 'Daging Sapi Tingkat Pemotongan/RPH',
+    price: 135000,
+    icon: '/assets/illustrations/kandang/pending.svg',
+    wilayah: 'Wilayah Lampung',
+  },
+];
+
+// ----------------------------------------------------------------------
+
+export default function TransaksiView() {
+  const { enqueueSnackbar } = useSnackbar();
+
+  const theme = useTheme();
+  const settings = useSettingsContext();
+  const router = useRouter();
+  const user = useAuthContext();
+
+  const openPenjualanModal = useBoolean();
+  const openInvoiceModal = useBoolean();
+
+  const [refetchPemasukan, setRefetchPemasukan] = useState(false);
+  const [refetchPengeluaran, setRefetchPengeluaran] = useState(false);
+
+  const [filters, setFilters] = useState('');
+  const [category, setCategory] = useState('pemasukan');
+
+  const [scannedData, setScannedData] = useState('');
+
+  const collectionPemasukan = {
+    name: 'pemasukan',
+    searchFilter: 'jenisPemasukan',
+    filter: [`peternakan = "${user.user.createdBy}"`],
+  };
+
+  const collectionPengeluaran = {
+    name: 'pengeluaran',
+    searchFilter: 'jenisPengeluaran',
+    filter: [`peternakan = "${user.user.createdBy}"`],
+  };
+
+  const handleFilters = useCallback((name, value) => {
+    setFilters(value);
+  }, []);
+
+  const toggleCategory = useCallback(() => {
+    if (category === 'pemasukan') {
+      setCategory('pengeluaran');
+    } else {
+      setCategory('pemasukan');
+    }
+  }, [category]);
+
+  useEffect(() => {
+    settings.setPageTitle(document.title);
+  }, [window.location.pathname]);
+
+  console.log(paths.dombaIntiFinance.transaksi.create);
+
+  return (
+    <>
+      <Container maxWidth={settings.themeStretch ? false : 'lg'}>
+        <Grid container spacing={2}>
+          {overviewData.map((item, index) => (
+            <Grid item key={index} xs={12} md={6}>
+              <OverviewTransaksi
+                price={item.price}
+                title={item.title}
+                img={item.icon}
+                type={item.type}
+                wilayah={item.wilayah}
+                chart={{
+                  colors: [theme.palette.info.light, theme.palette.info.main],
+                  series: [56, 47, 40, 62, 73, 30, 23, 54, 67, 68],
+                }}
+              />
+            </Grid>
+          ))}
+        </Grid>
+        <TransaksiToolbar filters={filters} onFilters={handleFilters} roleOptions={_roles} />
+        <Stack
+          spacing={2}
+          sx={{
+            flexDirection: {
+              xs: 'column',
+              sm: 'row',
+            },
+            alignItems: {
+              xs: 'start',
+              sm: 'end',
+            },
+          }}
+        >
+          <Tabs
+            value={category}
+            onChange={toggleCategory}
+            sx={{
+              px: 2.5,
+              boxShadow: (theme) => `inset 0 -2px 0 0 ${alpha(theme.palette.grey[500], 0.08)}`,
+            }}
+          >
+            {KATEGORI_OPTIONS.map((tab) => (
+              <Tab key={tab.value} iconPosition="end" value={tab.value} label={tab.label} />
+            ))}
+          </Tabs>
+          <Box
+            sx={{
+              display: 'flex',
+              gap: 2,
+              marginLeft: {
+                xs: 2,
+                sm: 'auto',
+              },
+            }}
+          >
+            <Button
+              color="primary"
+              variant="contained"
+              href={`${paths.dombaIntiFinance.transaksi.create}`}
+              component={RouterLink}
+            >
+              + Tambah Data
+            </Button>
+          </Box>
+        </Stack>
+
+        {category === 'pemasukan' && (
+          <TableAnitimeDombaCustom
+            label="Data Pemasukan"
+            filters={filters}
+            tableHead={TABLE_HEAD_PEMASUKAN}
+            collection={collectionPemasukan}
+            tableRowComponent={TransaksiPemasukanTableRow}
+            refetch={refetchPemasukan}
+            sx={{ marginTop: 2 }}
+            expand={'plasma'}
+          />
+        )}
+
+        {category === 'pengeluaran' && (
+          <TableAnitimeDombaCustom
+            label="Data Pengeluaran"
+            filters={filters}
+            tableHead={TABLE_HEAD_PENGELUARAN}
+            collection={collectionPengeluaran}
+            tableRowComponent={TransaksiPengeluaranTableRow}
+            refetch={refetchPengeluaran}
+            sx={{ marginTop: 2 }}
+            expand={'plasma'}
+          />
+        )}
+      </Container>
+
+      {openPenjualanModal.value && (
+        <AddTransaksiPendapatanModal
+          open={openPenjualanModal.value}
+          onClose={openPenjualanModal.onFalse}
+          openPenjualanModal={openPenjualanModal}
+          setRefetchPemasukan={setRefetchPemasukan}
+          setRefetchPengeluaran={setRefetchPengeluaran}
+          handleFilters={handleFilters}
+          category={category}
+          setCategory={setCategory}
+          openInvoiceModal={openInvoiceModal}
+          setScannedData={setScannedData}
+        />
+      )}
+      {openInvoiceModal.value && (
+        <InvoiceModal
+          open={openInvoiceModal.value}
+          onClose={openInvoiceModal.onFalse}
+          scannedData={scannedData}
+          setScannedData={setScannedData}
+        />
+      )}
+    </>
+  );
+}
+
+// ----------------------------------------------------------------------

@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: anitime-dev
+  namespace: frontend-dev
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: anitime-dev
+  template:
+    metadata:
+      labels:
+        app: anitime-dev
+    spec:
+      imagePullSecrets:
+        - name: gitlab-token-auth
+      containers:
+        - name: anitime
+          image: 10.0.0.135:5050/bodha/infraops/registry:frontend.anitime.dev
+          imagePullPolicy: Always
+      restartPolicy: Always
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: anitime-dev-np
+  namespace: frontend-dev
+spec:
+  type: NodePort
+  selector:
+    app: anitime-dev
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+      nodePort: 32001

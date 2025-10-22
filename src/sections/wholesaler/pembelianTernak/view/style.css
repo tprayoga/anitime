@@ -1,0 +1,17 @@
+@media print {
+  .print-btn {
+    display: none !important;
+  }
+  @page {
+    size: portrait;
+  }
+}
+
+@page {
+  size: auto;
+  margin: 0mm;
+}
+
+sup {
+  color: red;
+}
