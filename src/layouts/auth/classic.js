@@ -108,16 +108,19 @@ export default function AuthClassicLayout({ children, image, title }) {
       <Box
         component="img"
         alt="auth"
-        src={image || '/assets/illustrations/illustration_anitime.png'}
-        paddingY={'30px'}
-        paddingX={'30px'}
+        src={image || '/assets/illustrations/vetra.png'}
         sx={{
-          maxWidth: {
+          height: {
+            xs: '100vh',
+            lg: '100vh',
+            xl: '100vh',
+          },
+          width: {
             xs: '40vw',
             lg: '40vw',
             xl: '40vw',
           },
-          widht: '100%',
+          objectFit: 'cover', // bisa diganti 'contain' sesuai kebutuhan
         }}
       />
 

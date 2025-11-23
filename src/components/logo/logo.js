@@ -43,11 +43,11 @@ const Logo = forwardRef(({ disabledLink = false, sx, isTitle, ...other }, ref) =
       <Box
         ref={ref}
         component="img"
-        src="/logo/logo_single.png"
+        src="/logo/logo.png"
         alt="anitime"
         sx={{
-          width: 40,
-          height: 40,
+          width: '75%',
+          height: '75%',
         }}
       />
 
@@ -61,13 +61,14 @@ const Logo = forwardRef(({ disabledLink = false, sx, isTitle, ...other }, ref) =
     <Box
       ref={ref}
       component="img"
-      src="/logo/logo_single.png"
+      src="/logo/logo.png"
       alt="anitime"
       sx={{
-        width: 40,
-        height: 40,
         cursor: 'pointer',
         ...sx,
+
+        width: '75%',
+        height: '75%',
       }}
       {...other}
     />

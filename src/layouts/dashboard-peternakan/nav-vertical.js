@@ -51,9 +51,6 @@ export default function NavVertical({ openNav, onCloseNav }) {
     >
       <Stack direction="row" alignItems="center" spacing={2}>
         <Logo sx={{ mt: 3, ml: 4, mb: 1 }} />
-        <Typography variant="caption" color="primary" fontWeight={900} fontSize={24} mt={2}>
-          ANITIME
-        </Typography>
       </Stack>
 
       <NavSectionVertical

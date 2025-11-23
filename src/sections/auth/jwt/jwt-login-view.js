@@ -76,7 +76,7 @@ export default function JwtLoginView() {
 
   const renderHead = (
     <Box sx={{ mb: 2, display: 'flex', textAlign: 'left', position: 'relative' }}>
-      <Box
+      {/* <Box
         component="img"
         alt="auth"
         src={'/logo/logo_single.png'}
@@ -93,39 +93,39 @@ export default function JwtLoginView() {
           },
         }}
         marginRight={5}
-      />
+      /> */}
 
-      <Box>
-        <Typography variant="h3" color="#292560">
-          Welcome to
+      <Box textAlign="center" maxWidth="700px" mx="auto">
+        <Typography variant="h3" color="#0F172B" sx={{ mb: 1 }}>
+          Mulai Langkah Baru Bersama Vetra
         </Typography>
 
-        <Typography variant="h2" color="#16C36C">
-          ANITIME
+        <Typography
+          color="#64748B"
+          sx={{
+            lineHeight: 1.6,
+          }}
+        >
+          Kelola peternakan Anda dengan lebih mudah, efisien, dan teratur melalui sistem manajemen
+          modern Vetra.
         </Typography>
       </Box>
     </Box>
   );
 
   const renderBody = (
-    <Stack spacing={1} sx={{ textAlign: 'left', mb: 3 }}>
+    <Stack spacing={1} sx={{ textAlign: 'left', mb: 3, mt: 4, paddingX: 5 }}>
+      <Box></Box>
       <Box>
-        <Typography textAlign="justify">
-          Mengadopsi revolusi dalam manajemen peternakan yang melampaui praktik tradisional,
-          menawarkan solusi komprehensif untuk mengawasi setiap aspek peternakan sapi Anda dengan
-          mudah.
-        </Typography>
-      </Box>
-      <Box>
-        <Typography variant="h3" color="#292560">
-          Get Started
+        <Typography variant="h4" color="#292560">
+          Masuk ke Akun Anda
         </Typography>
       </Box>
     </Stack>
   );
 
   const renderForm = (
-    <Stack spacing={2.5}>
+    <Stack spacing={2.5} sx={{ paddingX: 5 }}>
       <RHFTextField name="email" label="Email" />
 
       <RHFTextField
